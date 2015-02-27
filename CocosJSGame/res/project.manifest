@@ -1,0 +1,13 @@
+{ 
+    "packageUrl" : "http://127.0.0.1:8080/JsUpdateServer/res", 
+    "remoteManifestUrl" : "http://127.0.0.1:8080/JsUpdateServer/res/project.manifest", 
+    "remoteVersionUrl" : "http://127.0.0.1:8080/JsUpdateServer/res/version.manifest", 
+    "version" : "1.0", 
+    "engineVersion" : "3.3", 
+    "assets" : {
+
+    },
+
+    "searchPaths" : [ 
+    ] 
+}
