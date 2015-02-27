@@ -1,0 +1,37 @@
+{
+    "packageUrl" : "http://127.0.0.1:8080/JsUpdateServer/res", 
+    "remoteManifestUrl" : "http://127.0.0.1:8080/JsUpdateServer/res/project.manifest", 
+    "remoteVersionUrl" : "http://127.0.0.1:8080/JsUpdateServer/res/version.manifest", 
+    "version" : "1.0.0",
+    "groupVersions" : {
+        "1" : "1.0.1",
+        "2" : "1.0.2"
+    },
+    "engineVersion" : "3.3",
+    "assets" : {
+        "update1" : {
+            "path" : "src/app.zip",
+            "md5" : "41D8E948052B5B714B14F81612CF534D",
+            "compressed" : true,
+            "group" : "1"
+        }, 
+        "update2" : {
+            "path" : "res/HelloWorld.png",
+            "md5" : "A0FA3FA681D500575012D5E802F74D50",
+            "group" : "1"
+        },
+        "update3" : {
+            "path" : "res/Bound.png",
+            "md5" : "E7D4218B02CD0C5BB35ADC55E133DBA2",
+            "group" : "1"
+        },
+        "update4" : {
+            "path" : "src/resource.js",
+            "md5" : "BA47101EBB65FBFCFB61C4CC57A306CA",
+            "group" : "2"
+        }
+    },
+    "searchPaths" : [
+    	"res/"
+    ]
+}
